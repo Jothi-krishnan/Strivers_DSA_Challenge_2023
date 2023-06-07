@@ -30,16 +30,7 @@ void setZeros(vector<vector<int>> & matrix)
                 matrix[i][j] = 0;
             }
         }
-    for(int i = 0; i<n; i++)
-    {
-        for(int j = 0; j<m; j++)
-        {
-            if(row[i] == 0 || col[j] == 0)
-            {
-                matrix[i][j] = 0;
-            }
-        }
-    }}
+    }
 }
 
 void solve()
