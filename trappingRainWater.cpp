@@ -1,11 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-long getTrappedWater(long *arr, int n){
-    long left = 0, right = n-1;
-    long left_max = 0, right_max = 0;
+long long getTrappedWater(long long *arr, int n){
+    long long left = 0, right = n-1;
+    long long left_max = 0, right_max = 0;
 
-    long ans = 0;
+    long long ans = 0;
 
     while(left < right)
     {
@@ -37,7 +37,7 @@ int main()
         int n;
         cin>>n;
 
-        long a[n];
+        long long a[n];
         for(int i= 0; i<n; i++)
             cin>>a[i];
 

@@ -25,7 +25,7 @@ void setZeros(vector<vector<int>> & matrix)
     {
         for(int j = 0; j<m; j++)
         {
-            if(row[i] == 0 || col[j] == 0)
+            if(row[i] == 1 || col[j] == 1)
             {
                 matrix[i][j] = 0;
             }
